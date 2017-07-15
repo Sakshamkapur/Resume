@@ -76,9 +76,9 @@ div.aboutbox{
 	animation-delay:1s; 
 	animation-duration: 1s;
 	position: absolute;
-	height: 500px;
-	width: 500px;
-	padding: 40px;
+	height: 74%;
+	width: 38%;
+	padding: 2%;
 	background-color: rgba(0,0,0,0.3);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -88,29 +88,29 @@ div.aboutbox{
 }
 div.aboutbox img{
 	width: 35%;
-	height: 130px;
+	height: 32%;
 	border-radius: 50%;
 }
 div.aboutbox h1{
     margin: 0;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 3%;
 	font-weight: 300;
     letter-spacing: 4px;
-    font-size: 40px;
+    font-size: 280%;
 }
 div.aboutbox h3{
-	margin-top: 20px;
-	font-size: 27px;
+	margin-top: 3%;
+	font-size: 160%;
     letter-spacing: 3px;
     font-weight: 600;
 
 }
 div.aboutbox p{
-	margin-top: 20px;
+	margin-top: 3%;
 	font-weight: 500;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 130%;
 }
 
 #one{
@@ -135,7 +135,7 @@ animation-delay:2.5s;
 }
 div.sm i{
 	margin-top: 12%;
-	font-size: 40px;
+	font-size: 260%;
 	letter-spacing: 10px;
 }
 .demo-3 .large-header {
@@ -147,6 +147,19 @@ div.dev h1,.dev2 h1,.dev3 h1{
 	padding: 0;
 	margin-left:13%;
     margin-top: 8%;
+}
+div.dev h1{
+	font-size: 100px;
+}
+#pub{
+	margin:0;
+	padding: 0;
+	padding-right:13%;
+	float: right;
+	margin-top: -100px;
+	font-size: 80px;
+	animation-duration: 2s; 
+	animation-delay: 0.5s;
 }
 div.stairs5{
 	display: relative;
@@ -254,7 +267,7 @@ div.paper2{
 #pros{
 	width: 25%;
 }
-#skill1{
+#skil1{
 	margin-top: 20%;
 	margin-left: 8%;
 }
@@ -282,4 +295,198 @@ div.skill3{
 	margin-left:15px; 
 	font-size: 60px;
 	color: white;
+}
+div.qualbox2 h3{
+	color: black; font-size: 90%;
+}
+#btech{
+	color: black; font-weight: 600;font-size: 90%;width: 100%;
+}
+#uni{
+	color: black; font-weight: 100;font-size: 90%;width: 100%;
+}
+#ach{
+	color: green;
+	margin-left:100px;
+}
+#pro{
+	margin-top: -2%; 
+	font-size: 100px; 
+	animation-duration: 2s;
+}
+#skil{
+	margin:0; 
+	padding: 0;
+	padding-right:13%;
+	float: right;
+	margin-top: 50px; 
+	font-size: 100px; 
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+}
+@media only screen and (max-width: 768px){
+    div.aboutbox{
+    	margin-top: 30%;
+    	width: 500px;
+    	height: 600px;
+    	margin-left: 25px;
+    }
+    div.aboutbox img{
+    	margin-top: 5%;
+    	height: 26%;
+    }
+    div.aboutbox p{
+        padding: 5%;
+    }
+    div.aboutbox i{
+    	margin-top: 5%;
+    }
+    div.large-header{
+    	width: 200%;
+    }
+    body{
+    	width: 75%;
+    }
+    div.dev h1{
+    	font-size: 80px;
+    }
+    div.stairs1{
+    	width: 80px;
+    	height: 40px;
+    	margin-left: 20px;
+    }
+    div.stairs2{
+    	width: 80px;
+    	height: 40px;
+        margin-left: 100px;
+    }
+    div.stairs3{
+    	width: 80px;
+    	height: 40px;
+    	margin-left: 180px;
+    }
+    div.stairs4{
+    	width: 80px;
+    	height: 40px;
+    	margin-left: 260px;
+    }
+    div.stairs5{
+    	width: 120px
+        height: 40px;
+    	margin-top: 150px;
+    	margin-left: 340px;
+    }
+    div.qualbox2{
+	    margin-top: -45px;
+	    width: 230px;
+	    display: absolute;
+	    margin-left: 5px; 
+    }
+    #btech{
+    	font-size: 70%;width: 90%;
+    }
+    #run{ 
+        margin-left: -75px;
+    } 
+    #pub{
+    	float: left;
+	padding-left:50px;
+	margin-top: -180px;
+	font-size: 60px;
+    }
+    #ach{
+	color: green;
+	margin-left:100px;
+    }
+    div.paper{
+    margin-top:-77%; 
+    margin-left: 100%;
+	width: 90%;
+    }   
+    div.paper h1{
+    	font-size: 19px;
+    }
+    div.paper2{
+	color: black;
+	margin-top:27%; 
+    margin-left: 10%;
+	width: 180%;
+	font-size: 18px;
+    }
+    div.paper a{
+	font-size: 24px;
+	text-decoration: none;
+	color: green;
+    }
+    #pro{
+	margin-top: -18%; 
+	font-size: 80px;
+	margin-left: 110px;
+	animation-duration: 2s;
+    }
+    #pros{
+	width: 100%;
+    }
+    #pros li h2{
+	font-size: 22px;
+	}
+	#pros li{
+	margin-left: 30%;
+	margin-top: 10%;
+	width: 100%;
+	}
+    #pros ul{
+    	margin-top: 300px;
+	margin-left: -38px;
+	list-style: none;
+	width: 100%;
+    } 
+    #code{
+	float: left;
+	margin-left: 42%;
+	margin-top: -450px;
+    }
+    #skil{
+	margin:0; 
+	padding: 0;
+	padding-left:120px;
+	float: left;
+	margin-top: 50px; 
+	font-size: 100px; 
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+    }
+    #skil1{
+	margin-top: 20%;
+	margin-left: 25%;
+    }
+    #skil2{
+	margin-top: -45%;
+	margin-left: 130%;
+    }
+    #skil3{
+	margin-top: 20%;
+	margin-left: 25%;
+    }
+    #skil4{
+	margin-top: -45%;
+	margin-left: 130%;
+    }
+    #skil5{
+	margin-top: 20%;
+	margin-left: 25%;
+    }
+    #skil6{
+	margin-top: -45%;
+	margin-left: 130%;
+    }
+    #totop{
+	margin-top: 40px;
+	float: left;
+	width: 60px;
+	height: 60px;
+	background-color:black;
+	border-radius: 50%; 
+	margin-left: 250px;
+    }
 }
